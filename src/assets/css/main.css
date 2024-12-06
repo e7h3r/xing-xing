@@ -1,0 +1,30 @@
+html,
+body {
+  @apply h-full bg-zinc-950;
+}
+/* For Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* General class to apply if you want to ensure consistency across other parts of your app */
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinners {
+  -moz-appearance: textfield;
+}
+
+.apexcharts-yaxis.apexcharts-yaxis-right .apexcharts-yaxis-texts-g text {
+  text-anchor: end !important;
+}

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.cdnfonts.com/css/thegoodmonolith');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
