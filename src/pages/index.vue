@@ -42,15 +42,15 @@
         </div> -->
         <img
           src="@/assets/img/banner.png"
-          class="inset-0 w-full h-[500px] md:h-full object-cover object-center"
+          class="inset-0 w-full h-[500px] md:h-full object-cover object-right md:object-center"
         />
         <div
-          class="absolute bottom-12 flex flex-col items-center justify-center w-full"
+          class="absolute bottom-6 md:bottom-12 flex flex-col items-center justify-center w-full"
         >
           <a
             target="_blank"
             href="https://raydium.io/swap/?outputMint=5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump&inputMint=sol"
-            class="border-2 border-black rounded-md px-6 bg-white p-2 w-[300px] md:w-64 uppercase text-gold mt-8 text-xl md:text-xl buy-btn text-zinc-800 flex items-center"
+            class="border-2 border-black rounded-md px-6 bg-white p-2 w-[200px] md:w-64 uppercase text-gold mt-8 md:text-xl buy-btn text-zinc-800 flex items-center"
           >
             Buy $xing
           </a>
