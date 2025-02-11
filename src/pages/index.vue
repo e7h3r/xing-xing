@@ -40,10 +40,20 @@
             The Cutest TikTok Monkey on Sol!
           </h1>
         </div> -->
-        <img
-          src="@/assets/img/banner.png"
-          class="inset-0 w-full h-[500px] md:h-full object-cover object-right md:object-center"
-        />
+        <!-- Mobile -->
+        <picture>
+          <source
+            srcset="@/assets/img/banner_small.jpeg"
+            media="(max-width: 600px)"
+          />
+          <!-- Tablet -->
+          <!-- Default -->
+          <img
+            src="@/assets/img/banner.jpeg"
+            alt="Responsive Image"
+            class="inset-0 w-full h-[500px] md:h-full object-cover object-right md:object-center"
+          />
+        </picture>
         <div
           class="absolute bottom-6 md:bottom-12 flex flex-col items-center justify-center w-full"
         >
