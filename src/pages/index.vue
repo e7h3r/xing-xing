@@ -12,10 +12,10 @@
           <nuxt-link :to="{ hash: '#about' }" class="hidden md:block">
             About</nuxt-link
           >
-          <nuxt-link :to="{ hash: '#roadmap' }" class="hidden md:block">
+          <!-- <nuxt-link :to="{ hash: '#roadmap' }" class="hidden md:block">
             Roadmap
-          </nuxt-link>
-          <a target="_blank" href="https://x.com/XingXingonX">X</a>
+          </nuxt-link> -->
+          <a target="_blank" href="https://x.com/XINGXINGonX">X</a>
           <a
             target="_blank"
             href="https://t.me/xing_xing_cto"
@@ -25,10 +25,10 @@
           </a>
           <a
             target="_blank"
-            href="https://raydium.io/swap/?outputMint=5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump&inputMint=sol"
+            href="https://jup.ag/swap/SOL-xing"
             class="border-2 border-black rounded-md px-4 p-1 uppercase buy-btn text-zinc-800 border-zinc-800"
           >
-            Buy $xing
+            Buy $XING
           </a>
         </div>
       </div>
@@ -59,14 +59,14 @@
         >
           <a
             target="_blank"
-            href="https://raydium.io/swap/?outputMint=5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump&inputMint=sol"
+            href="https://jup.ag/swap/SOL-xing"
             class="border-2 border-black rounded-md px-6 bg-white p-2 w-[200px] md:w-64 uppercase text-gold mt-8 md:text-xl buy-btn text-zinc-800 flex items-center"
           >
-            Buy $xing
+            Buy $XING
           </a>
           <!-- <a
             target="_blank"
-            href="https://raydium.io/swap/?outputMint=5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump&inputMint=sol"
+            href="https://jup.ag/swap/SOL-xing"
             class="border-2 border-black rounded-md px-4 p-1 uppercase buy-btn text-zinc-800 border-zinc-800 bg-white"
           >
             Buy $xing
@@ -83,13 +83,13 @@
           The Lore: Story of courage and bond
         </h2>
         <p class="text-zinc-800 my-8 font-onest text-lg text-center">
-          Xing, a courageous monkey who lost an arm to a bear trap, has found a
+          XING, a courageous monkey who lost an arm to a bear trap, has found a
           sanctuary of care and love at a temple under the watchful eye of her
           devoted companion, "Grandma." Her incredible story has resonated
           across the globe, making her an internet sensation. Visitors come from
           far and wide to witness her resilience and share treats, drawn to her
           lively and charming personality. While she appreciates the kindness,
-          Xing Xing maintains her independence, reminding everyone of the
+          XING XING maintains her independence, reminding everyone of the
           strength and courage that define her remarkable journey.
         </p>
         <iframe
@@ -107,7 +107,7 @@
     </section>
     <section class="font-dyna w-full bg-white">
       <div
-        class="w-full mx-auto p-8 md:p-16 rounded-xl"
+        class="w-full mx-auto p-8 md:p-16 rounded-t-xl"
         style="max-width: 1380px; background: rgb(208 184 134)"
       >
         <h2 class="text-zinc-800 text-4xl text-center font-semibold">
@@ -117,9 +117,14 @@
           <div class="p-6 border-gold rounded">
             <h4 class="text-xl text-zinc-800">1) Create a wallet</h4>
             <p class="text-zinc-800 font-onest mt-2">
-              Visit <a href="phantom.app">phantom.app</a> and follow the simple
-              steps to create a new account with the Phantom app or browser
-              extension.
+              Visit
+              <a
+                href="https://phantom.com/learn/guides/how-to-create-a-new-wallet"
+                class="underline text-blue-700"
+                >phantom.app</a
+              >
+              and follow the simple steps to create a new account with the
+              Phantom app or browser extension.
             </p>
           </div>
           <div class="p-6 border-gold rounded">
@@ -130,16 +135,16 @@
             </p>
           </div>
           <div class="p-6 border-gold rounded">
-            <h4 class="text-xl text-zinc-800">3) Swap $SOL for $Xing ‍</h4>
+            <h4 class="text-xl text-zinc-800">3) Swap $SOL for $XING ‍</h4>
             <p class="text-zinc-800 font-onest mt-2">
-              Tap the SWAP icon in your Phantom wallet and paste the $Xing token
-              address. Swap your $SOL for $Xing.
+              Tap the SWAP icon in your Phantom wallet and paste the $XING token
+              address. Swap your $SOL for $XING.
             </p>
           </div>
           <div class="p-6 border-gold rounded">
-            <h4 class="text-xl text-zinc-800">4) You're xing-xang! ‍</h4>
+            <h4 class="text-xl text-zinc-800">4) You're XING-xang! ‍</h4>
             <p class="text-zinc-800 font-onest mt-2">
-              Welcome to the Xing family!
+              Welcome to the XING family!
             </p>
           </div>
         </div>
@@ -148,16 +153,18 @@
           <p class="text-lg text-center text-zinc-800 font-onest">
             You can now easily buy $XING using applepay on the moonshot app!
           </p>
-          <button
+          <a
+            href="https://moonshot.money/"
+            target="_blank"
             class="border-2 border-black rounded-md px-4 bg-white p-2 w-[300px] md:w-96 uppercase text-zinc-800 mt-8 text-xl md:text-2xl buy-btn text-zinc-800 border-zinc-800"
           >
             Ape in With moonshot
-          </button>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="bg-white font-dyna w-full" id="roadmap">
+    <section class="bg-white font-dyna w-full" id="roadmap" v-if="false">
       <div class="w-full mx-auto py-24" style="max-width: 1380px">
         <h2 class="text-zinc-800 text-4xl text-center">Road to $1 Billion</h2>
         <div class="text-zinc-800 p-8 mt-16">
@@ -278,8 +285,8 @@
                 $1 billion usd martketcap
               </p>
               <p class="mt-1 text-pretty text-zinc-900 font-onest">
-                - Commision a bionic arm for Xing through Elon Musk's Neuralink,
-                so Xing is finally able to use both hands
+                - Commision a bionic arm for XING through Elon Musk's Neuralink,
+                so XING is finally able to use both hands
               </p>
             </div>
           </div>
@@ -291,38 +298,45 @@
       <!-- <div class="w-full mx-auto py-16 grid col-span-2  bg-gold rounded-xl px-16 " style=" max-width: 1380px;" > -->
 
       <div
-        class="w-full mx-auto py-16 grid col-span-2 bg-zinc-900 rounded-t-xl px-16"
+        class="w-full mx-auto py-16 grid col-span-2 bg-zinc-900 px-16"
         style="max-width: 1380px"
       >
-        <h2 class="text-white text-4xl text-center">Xing on Socials</h2>
+        <h2 class="text-white text-4xl text-center">XING on Socials</h2>
         <div class="flex space-x-8 flex items-center justify-center mt-12">
           <a
             class="border-2 border-white-700 rounded-md p-2 uppercase buy-btn cursor-pointer"
             target="_blank"
-            href="https://x.com/XingXingonX"
+            href="https://x.com/XINGXINGonX"
           >
             <img class="h-8 w-8" src="@/assets/img/x.png" />
           </a>
           <a
             class="border-2 border-white-700 rounded-md p-2 uppercase buy-btn cursor-pointer"
             target="_blank"
-            href="https://t.me/xing_xing_cto"
+            href="https://dexscreener.com/solana/2puvkhdeq5uprxrowunggfnvpfun7pdommgqwxyq37hv"
           >
             <img class="h-8 w-8" src="@/assets/img/dex_screener.png" />
           </a>
-          <a
+          <!-- <a
             class="border-2 border-white-700 rounded-md p-2 uppercase buy-btn cursor-pointer"
             target="_blank"
             href="https://www.instagram.com/xing.xing.monkey/"
           >
             <img class="h-8 w-8" src="@/assets/img/instagram.png" />
-          </a>
+          </a> -->
           <a
             class="border-2 border-white-700 rounded-md p-2 uppercase buy-btn cursor-pointer"
             target="_blank"
             href="https://t.me/xing_xing_cto"
           >
             <img class="h-8 w-8" src="@/assets/img/telegram.png" />
+          </a>
+          <a
+            class="border-2 border-white-700 rounded-md p-2 uppercase buy-btn cursor-pointer"
+            target="_blank"
+            href="https://www.tiktok.com/@xingxingonsol"
+          >
+            <img class="h-8 w-8" src="@/assets/img/tiktok.png" />
           </a>
           <!-- <a
             class="border-2 border-white-700 rounded-md p-2 uppercase buy-btn cursor-pointer"
@@ -337,7 +351,7 @@
         <div class="flex items-center justify-center mt-8">
           <a
             target="_blank"
-            href="https://raydium.io/swap/?outputMint=5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump&inputMint=sol"
+            href="https://jup.ag/swap/SOL-xing"
             class="border-2 border-black rounded-md px-4 bg-white p-2 w-[300px] md:w-96 uppercase text-gold mt-8 text-xl md:text-2xl buy-btn text-zinc-800 border-gold flex items-center"
           >
             Buy $xing
@@ -354,7 +368,7 @@
           <br />
 
           No entity in China has ownership, involvement, or liability regarding
-          $Xing Meme Coin or any related assets. Additionally, no entity in
+          $XING Meme Coin or any related assets. Additionally, no entity in
           China has endorsed or participated in the $XING Meme Coin project.
           Furthermore, no entity in China promotes, endorses, or assumes
           responsibility for the purchase, holding, or any transactions related
